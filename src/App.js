@@ -25,7 +25,7 @@ import {
 } from "./pages";
 
 const App = () => {
-  const [activeMenu, setActiveMenu] = useState(false);
+  const [activeMenu, setActiveMenu] = useState(true);
   return (
     <div>
       <BrowserRouter>
